@@ -12,6 +12,6 @@ provider "aws" {
 }
 
 resource "aws_instance" "example" {
-  ami           = "ami-011899242bb902164" # Ubuntu 20.04 LTS // eu-west-2
+  ami           = "ami-0b90a0a00b659a2f2" # Ubuntu 20.04 LTS // eu-west-2
   instance_type = "t2.micro"
 }
